@@ -9,3 +9,39 @@
   display: table;
   clear: both;
 }
+
+.categories-and-latest {
+  flex-direction: column;
+}
+
+.category-list .category-description,
+.category-list .subcategories,
+.category-list tr .topics,
+.category-list th {
+  display: none;
+}
+
+.category-list tbody .category {
+  border: none;
+  width: 100%;
+  display: block;
+  height: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.category-list tbody tr[class] {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+}
+
+.category-list tbody {
+  text-align: center;
+}
+
+
